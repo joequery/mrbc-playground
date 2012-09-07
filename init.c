@@ -7,7 +7,7 @@
 extern const char mrubybin[];
 
 void
-mrb_init_benchmark(mrb_state *mrb)
+mrb_init_mrubybin(mrb_state *mrb)
 {
   int n = mrb_read_irep(mrb, mrubybin);
 

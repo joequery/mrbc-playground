@@ -5,7 +5,7 @@
 #include <mruby/compile.h>
 #include <mruby/variable.h>
 
-void mrb_init_benchmark(mrb_state*);
+void mrb_init_mrubybin(mrb_state*);
 
 /* Print a short remark for the user */
 void print_hint(void)
@@ -39,12 +39,10 @@ main(void)
   /* new interpreter instance */
   mrb = mrb_open();
   if (mrb == NULL) {
-    fprintf(stderr, "Invalid mrb_state, exiting test driver");
+    fprintf(stderr, "Invalid mrb_state, exiting driver");
     return EXIT_FAILURE;
   }
-
-  mrb_init_benchmark(mrb);
-  /* evaluate the test */
+  mrb_init_mrubybin(mrb);
   return_value = mrb_load_string(mrb, prog);
   /* did an exception occur? */
   if (mrb->exc) {
