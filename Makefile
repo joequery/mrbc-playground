@@ -1,5 +1,5 @@
-TARGET := rubyfile
 MRUBY := /web/github/mruby
+TARGET := rubyfile
 CC := gcc
 MRBC_SYMBOL := mrubybin
 MRBC := $(MRUBY)/bin/mrbc
