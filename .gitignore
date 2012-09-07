@@ -1,0 +1,4 @@
+*.o
+*.ctmp
+rubyfile
+rubyfile.c
