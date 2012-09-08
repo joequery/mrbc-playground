@@ -3,7 +3,7 @@ mrbc playground
 
 mrbc, the mruby compiler, is a utility provided by the [mruby project][0]. mrbc
 compiles your ruby program into byte code. The mruby project is still in
-preliminary stages, but issues and pull requests are welcome.
+preliminary stages, but they welcome issues and pull requests.
 
 This project allows for quick/fun experimentation with the mrbc compiler by
 taking care of the compiler/linker options for you. A simple `make`, and your
@@ -18,7 +18,7 @@ Installation
 ------------
 
 Watch the [codestream](http://codestre.am/4f11323462f5c003a7bbecc07) to see the
-installation process for yourself.
+installation process.
 
 1. First, download [mruby][0]. 
 2. Build mruby.
