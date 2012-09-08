@@ -17,6 +17,9 @@ Unix-like.
 Installation
 ------------
 
+Watch the [codestream](http://codestre.am/4f11323462f5c003a7bbecc07) to see the
+installation process for yourself.
+
 1. First, download [mruby][0]. 
 2. Build mruby.
 
